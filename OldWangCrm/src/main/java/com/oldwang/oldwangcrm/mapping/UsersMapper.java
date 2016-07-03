@@ -1,0 +1,11 @@
+package com.oldwang.oldwangcrm.mapping;
+
+/**
+ * ÕË»§Êý¾Ý²ã
+ * 
+ * @author Administrator
+ *
+ */
+public interface UsersMapper {
+
+}
