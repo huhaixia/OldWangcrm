@@ -1,144 +1,122 @@
 package com.oldwang.oldwangcrm.model;
 
 /**
- * ºÏÍ¬
- * 
+ * åˆåŒå®ä½“ç±»
  * @author Administrator
  * 
  */
 public class Compact {
 	/**
-	 * ºÏÍ¬±íid
+	 * åˆåŒç¼–å·id
 	 */
 	private int id;
 	/**
-	 * ÒµÎñÔ±£¨FKÓÃ»§£©
+	 * ä¸šåŠ¡å‘˜ï¼ˆFKç”¨æˆ·è¡¨ï¼‰
 	 */
 	private int usersid;
 	/**
-	 * ¿Í»§£¨FK¿Í»§£©
+	 * å®¢æˆ·ï¼ˆFKå®¢æˆ·è¡¨ï¼‰
 	 */
 	private int customerid;
 	/**
-	 * ·¿Ô´
+	 * æˆ¿æºï¼ˆFKæˆ¿æºï¼‰
 	 */
 	private int houselnfoid;
 	/**
-	 * ×âÆÚ£¨ÒÔÔÂÎªµ¥Î»£©
+	 *ç§ŸæœŸï¼ˆä»¥æœˆä¸ºå•ä½ï¼‰ 
 	 */
 	private int hiretime;
 	/**
-	 * ³É½»×Ü¼Û¸ñ
+	 * æˆäº¤ä»·æ ¼
 	 */
 	private int price;
 	/**
-	 * ÈÕÆÚ£¨Ç©Ô¼Ê±¼ä£©
+	 * æ—¥æœŸï¼ˆç­¾çº¦æ—¶é—´ï¼‰
 	 */
 	private String date;
-
 	/**
 	 * @return the id
 	 */
 	public int getId() {
 		return id;
 	}
-
 	/**
-	 * @param id
-	 *            the id to set
+	 * @param id the id to set
 	 */
 	public void setId(int id) {
 		this.id = id;
 	}
-
 	/**
 	 * @return the usersid
 	 */
 	public int getUsersid() {
 		return usersid;
 	}
-
 	/**
-	 * @param usersid
-	 *            the usersid to set
+	 * @param usersid the usersid to set
 	 */
 	public void setUsersid(int usersid) {
 		this.usersid = usersid;
 	}
-
 	/**
 	 * @return the customerid
 	 */
 	public int getCustomerid() {
 		return customerid;
 	}
-
 	/**
-	 * @param customerid
-	 *            the customerid to set
+	 * @param customerid the customerid to set
 	 */
 	public void setCustomerid(int customerid) {
 		this.customerid = customerid;
 	}
-
 	/**
 	 * @return the houselnfoid
 	 */
 	public int getHouselnfoid() {
 		return houselnfoid;
 	}
-
 	/**
-	 * @param houselnfoid
-	 *            the houselnfoid to set
+	 * @param houselnfoid the houselnfoid to set
 	 */
 	public void setHouselnfoid(int houselnfoid) {
 		this.houselnfoid = houselnfoid;
 	}
-
 	/**
 	 * @return the hiretime
 	 */
 	public int getHiretime() {
 		return hiretime;
 	}
-
 	/**
-	 * @param hiretime
-	 *            the hiretime to set
+	 * @param hiretime the hiretime to set
 	 */
 	public void setHiretime(int hiretime) {
 		this.hiretime = hiretime;
 	}
-
 	/**
 	 * @return the price
 	 */
 	public int getPrice() {
 		return price;
 	}
-
 	/**
-	 * @param price
-	 *            the price to set
+	 * @param price the price to set
 	 */
 	public void setPrice(int price) {
 		this.price = price;
 	}
-
 	/**
 	 * @return the date
 	 */
 	public String getDate() {
 		return date;
 	}
-
 	/**
-	 * @param date
-	 *            the date to set
+	 * @param date the date to set
 	 */
 	public void setDate(String date) {
 		this.date = date;
 	}
-
+	
 }

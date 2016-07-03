@@ -1,7 +1,7 @@
 package com.oldwang.oldwangcrm.mapping;
 
 /**
- * ÕË»§Êı¾İ²ã
+ * è´¦æˆ·æ•°æ®å±‚
  * 
  * @author Administrator
  *

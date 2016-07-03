@@ -1,42 +1,42 @@
 package com.oldwang.oldwangcrm.model;
 
 /**
- * ÓÃ»§
+ * ç”¨æˆ·å®ä½“ç±»
  * 
  * @author Administrator
  * 
  */
 public class Users {
 	/**
-	 * ÓÃ»§id
+	 * ç”¨æˆ·id
 	 */
 	private int id;
 	/**
-	 * ĞÕÃû
+	 * å§“å
 	 */
 	private String name;
 	/**
-	 * ÃÜÂë
+	 * å¯†ç 
 	 */
 	private String password;
 	/**
-	 * ÁªÏµ·½Ê½
+	 * è”ç³»æ–¹å¼
 	 */
 	private String phone;
 	/**
-	 * Éí·İÖ¤
+	 * èº«ä»½è¯
 	 */
 	private String idcard;
 	/**
-	 * µêÆÌ
+	 * åº—é“º
 	 */
 	private String storeid;
 	/**
-	 * µÈ¼¶ 0ÒµÎñÔ± 1µê³¤ 2ÇøÓò¾­Àí
+	 * ç­‰çº§ï¼ˆ0ä¸šåŠ¡å‘˜1åº—é•¿2åŒºåŸŸç»ç†ï¼‰
 	 */
 	private int ulevel;
 	/**
-	 * ×´Ì¬ 0Õı³£ 1Ğİ¼Ù/Ëø¶¨ 2ÀëÖ°
+	 * çŠ¶æ€ï¼ˆ0æ­£å¸¸1ä¼‘å‡/é”å®š2ç¦»èŒï¼‰
 	 */
 	private int state;
 

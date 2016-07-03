@@ -1,38 +1,38 @@
 package com.oldwang.oldwangcrm.model;
 
 /**
- * ¿´·¿¼ÇÂ¼
+ * çœ‹æˆ¿è®°å½•å®ä½“ç±»
  * 
  * @author Administrator
  * 
  */
 public class Work {
 	/**
-	 * ¿´·¿¼ÇÂ¼id
+	 * çœ‹æˆ¿è®°å½•ID
 	 */
 	private int id;
 	/**
-	 * ÒµÎñÔ±£¨FKÓÃ»§£©
+	 * ä¸šåŠ¡å‘˜ï¼ˆFKç”¨æˆ·ï¼‰
 	 */
 	private int usersid;
 	/**
-	 * ¿Í»§£¨FK¿Í»§£©
+	 * å®¢æˆ·ï¼ˆFKå®¢æˆ·ï¼‰
 	 */
 	private int customerid;
 	/**
-	 * ·¿Ô´£¨FK·¿Ô´£©
+	 * æˆ¿æºï¼ˆFKæˆ¿æºï¼‰
 	 */
 	private int houselnfoid;
 	/**
-	 * Ê±¼ä
+	 * æ—¶é—´
 	 */
 	private String date;
 	/**
-	 * ½á¹û 0ÎŞÒâ 1ÓĞÒâµ«Î´³É½» 2³É½»
+	 * ç»“æœï¼ˆ0æ— æ„1æœ‰æ„ä½†æœªæˆäº¤2æˆäº¤ï¼‰
 	 */
 	private String result;
 	/**
-	 * ±¸×¢
+	 * å¤‡æ³¨
 	 */
 	private String remark;
 

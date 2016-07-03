@@ -1,30 +1,30 @@
 package com.oldwang.oldwangcrm.model;
 
 /**
- * µêÆÌÀà
+ * åº—é“ºå®ä½“ç±»
  * 
  * @author Administrator
  * 
  */
 public class Store {
 	/**
-	 * µêÆÌÀàid
+	 * åº—é“ºç¼–å·id
 	 */
 	private int id;
 	/**
-	 * Ãû³Æ
+	 * åç§°
 	 */
 	private String name;
 	/**
-	 * ³ÇÇø
+	 * åŸåŒº
 	 */
 	private String area;
 	/**
-	 * µê³¤
+	 * åº—é•¿
 	 */
 	private int usersowner;
 	/**
-	 * µØÖ·
+	 * åœ°å€
 	 */
 	private String address;
 

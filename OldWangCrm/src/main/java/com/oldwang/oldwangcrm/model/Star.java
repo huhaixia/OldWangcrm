@@ -1,30 +1,30 @@
 package com.oldwang.oldwangcrm.model;
 
 /**
- * �ղ�
+ * 收藏实体类
  * 
  * @author Administrator
  * 
  */
 public class Star {
 	/**
-	 * �ղ���id
+	 * 收藏编号id
 	 */
 	private int id;
 	/**
-	 * ҵ��Ա
+	 * 业务员（FK用户）
 	 */
 	private int usersid;
 	/**
-	 * ��Դ
+	 * 房源（FK房源）
 	 */
 	private int houselnfoid;
 	/**
-	 * �ղ�����
+	 * 日期（最后操作时间）
 	 */
 	private String date;
 	/**
-	 * ״̬ 0�ղ� 1ȡ���ղ�
+	 * 状态（0收藏1取消收藏）
 	 */
 	private String state;
 

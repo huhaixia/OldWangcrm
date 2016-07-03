@@ -1,220 +1,187 @@
 package com.oldwang.oldwangcrm.model;
 
 /**
- * ¿Í»§Àà
+ * å®¢æˆ·å®ä½“ç±»
  * 
  * @author Administrator
  * 
  */
 public class Customer {
 	/**
-	 * ¿Í»§Ààid
+	 * å®¢æˆ·ç¼–å·id
 	 */
 	private int id;
 	/**
-	 * ĞÕÃû
+	 * å§“å
 	 */
 	private String name;
 	/**
-	 * ÁªÏµ·½Ê½
+	 * è”ç³»æ–¹å¼
 	 */
 	private String phone;
 	/**
-	 * ³ÇÇø
+	 * åŸåŒº
 	 */
 	private String area;
 	/**
-	 * ÒâÏò»§ĞÍ
+	 * æ„å‘æˆ·å‹
 	 */
 	private int housetype;
 	/**
-	 * ÒâÏòÂ¥²ã£¨Êı¾İ±íÊ¾£©
+	 * æ„å‘æ¥¼å±‚(æ•°æ®è¡¨ç¤º)
 	 */
 	private int floor;
 	/**
-	 * ¼Û¸ñ
+	 * ä»·æ ¼
 	 */
 	private int price;
 	/**
-	 * ÉèÊ©
+	 * è®¾æ–½
 	 */
 	private String equipment;
 	/**
-	 * ×´Ì¬ 0Ã»ÓĞÄ¿±ê·¿×Ó 1ÓĞÄ¿±ê·¿×Óµ«Î´×â 2ÒÑ¾­³ö×â
+	 * çŠ¶æ€ï¼ˆ0æ²¡æœ‰ç›®æ ‡æˆ¿å­1æœ‰ç›®æ ‡æˆ¿å­ä½†æœªç§Ÿ2å·²ç»å‡ºç§Ÿï¼‰
 	 */
 	private String state;
 	/**
-	 * ÒµÎñÔ±£¨FKÓÃ»§£©
+	 * ä¸šåŠ¡å‘˜ï¼ˆFKç”¨æˆ·ï¼‰
 	 */
 	private int usersid;
 	/**
-	 * Â¼ÈëÊ±¼ä
+	 * å½•å…¥æ—¶é—´
 	 */
 	private String date;
-
 	/**
 	 * @return the id
 	 */
 	public int getId() {
 		return id;
 	}
-
 	/**
-	 * @param id
-	 *            the id to set
+	 * @param id the id to set
 	 */
 	public void setId(int id) {
 		this.id = id;
 	}
-
 	/**
 	 * @return the name
 	 */
 	public String getName() {
 		return name;
 	}
-
 	/**
-	 * @param name
-	 *            the name to set
+	 * @param name the name to set
 	 */
 	public void setName(String name) {
 		this.name = name;
 	}
-
 	/**
 	 * @return the phone
 	 */
 	public String getPhone() {
 		return phone;
 	}
-
 	/**
-	 * @param phone
-	 *            the phone to set
+	 * @param phone the phone to set
 	 */
 	public void setPhone(String phone) {
 		this.phone = phone;
 	}
-
 	/**
 	 * @return the area
 	 */
 	public String getArea() {
 		return area;
 	}
-
 	/**
-	 * @param area
-	 *            the area to set
+	 * @param area the area to set
 	 */
 	public void setArea(String area) {
 		this.area = area;
 	}
-
 	/**
 	 * @return the housetype
 	 */
 	public int getHousetype() {
 		return housetype;
 	}
-
 	/**
-	 * @param housetype
-	 *            the housetype to set
+	 * @param housetype the housetype to set
 	 */
 	public void setHousetype(int housetype) {
 		this.housetype = housetype;
 	}
-
 	/**
 	 * @return the floor
 	 */
 	public int getFloor() {
 		return floor;
 	}
-
 	/**
-	 * @param floor
-	 *            the floor to set
+	 * @param floor the floor to set
 	 */
 	public void setFloor(int floor) {
 		this.floor = floor;
 	}
-
 	/**
 	 * @return the price
 	 */
 	public int getPrice() {
 		return price;
 	}
-
 	/**
-	 * @param price
-	 *            the price to set
+	 * @param price the price to set
 	 */
 	public void setPrice(int price) {
 		this.price = price;
 	}
-
 	/**
 	 * @return the equipment
 	 */
 	public String getEquipment() {
 		return equipment;
 	}
-
 	/**
-	 * @param equipment
-	 *            the equipment to set
+	 * @param equipment the equipment to set
 	 */
 	public void setEquipment(String equipment) {
 		this.equipment = equipment;
 	}
-
 	/**
 	 * @return the state
 	 */
 	public String getState() {
 		return state;
 	}
-
 	/**
-	 * @param state
-	 *            the state to set
+	 * @param state the state to set
 	 */
 	public void setState(String state) {
 		this.state = state;
 	}
-
 	/**
 	 * @return the usersid
 	 */
 	public int getUsersid() {
 		return usersid;
 	}
-
 	/**
-	 * @param usersid
-	 *            the usersid to set
+	 * @param usersid the usersid to set
 	 */
 	public void setUsersid(int usersid) {
 		this.usersid = usersid;
 	}
-
 	/**
 	 * @return the date
 	 */
 	public String getDate() {
 		return date;
 	}
-
 	/**
-	 * @param date
-	 *            the date to set
+	 * @param date the date to set
 	 */
 	public void setDate(String date) {
 		this.date = date;
 	}
-
+ 
 }

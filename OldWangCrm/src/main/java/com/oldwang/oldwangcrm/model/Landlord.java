@@ -1,22 +1,22 @@
 package com.oldwang.oldwangcrm.model;
 
 /**
- * ·¿¶«Àà
+ * æˆ¿ä¸œå®ä½“ç±»
  * 
  * @author Administrator
  * 
  */
 public class Landlord {
 	/**
-	 * ·¿¶«Ààid
+	 * æˆ¿ä¸œç¼–å·id
 	 */
 	private int id;
 	/**
-	 * ĞÕÃû
+	 * å§“å
 	 */
 	private String name;
 	/**
-	 * ÁªÏµ·½Ê½
+	 * è”ç³»æ–¹å¼
 	 */
 	private String phone;
 

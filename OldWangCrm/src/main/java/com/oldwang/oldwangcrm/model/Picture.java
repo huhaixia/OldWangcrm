@@ -1,22 +1,22 @@
 package com.oldwang.oldwangcrm.model;
 
 /**
- * ͼƬ
- * 
+ *图片实体类
+ *
  * @author Administrator
  * 
  */
 public class Picture {
 	/**
-	 * ͼƬid
+	 * 图片编号id
 	 */
 	private int id;
 	/**
-	 * ͼƬ��ַ
+	 * 图片地址
 	 */
 	private String src;
 	/**
-	 * ��Դ
+	 * 房源
 	 */
 	private String area;
 

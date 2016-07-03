@@ -1,74 +1,74 @@
 package com.oldwang.oldwangcrm.model;
 
 /**
- * ·¿Ô´Àà
+ * æˆ¿æº
  * 
  * @author Administrator
  * 
  */
 public class Houselnfo {
 	/**
-	 * ·¿Ô´Ààid
+	 * æˆ¿æºç¼–å·id
 	 */
 	private int id;
 	/**
-	 * ·¿¶«£¨FK£©
+	 * æˆ¿ä¸œï¼ˆFKæˆ¿ä¸œï¼‰
 	 */
 	private int landlordid;
 	/**
-	 * ÒµÎñÔ±£¨FK£©
+	 * ä¸šåŠ¡å‘˜ï¼ˆFKç”¨æˆ·ï¼‰
 	 */
 	private int usersid;
 	/**
-	 * µêÆÌ£¨FK£©
+	 * åº—é“ºï¼ˆFKåº—é“ºï¼‰
 	 */
 	private int storeid;
 	/**
-	 * ³ÇÇø
+	 * åŸåŒº
 	 */
 	private String area;
 	/**
-	 * Ğ¡Çø
+	 * å°åŒº
 	 */
 	private String territory;
 	/**
-	 * µØÖ·
+	 * åœ°å€
 	 */
 	private String address;
 	/**
-	 * Â¥²ã£¨Êı¾İ±íÊ¾£©
+	 * æ¥¼å±‚ï¼ˆæ•°æ®è¡¨ç¤ºï¼‰
 	 */
 	private int floor;
 	/**
-	 * »§ĞÍ
+	 * æˆ·å‹
 	 */
 	private int housetype;
 	/**
-	 * Ãæ»ı
+	 * é¢ç§¯
 	 */
 	private int acreage;
 	/**
-	 * ×°ĞŞÀàĞÍ£¨0Î´×°ĞŞ1ÆÕÍ¨×°ĞŞ2¾«×°ĞŞ3ºÀ»ª×°ĞŞ£©
+	 * è£…ä¿®ç±»å‹ï¼ˆ0æœªè£…ä¿®1æ™®é€šè£…ä¿®2ç²¾è£…ä¿®3è±ªåè£…ä¿®ï¼‰
 	 */
 	private String type;
 	/**
-	 * ¼Û¸ñ
+	 * ä»·æ ¼
 	 */
 	private int price;
 	/**
-	 * ÉèÊ©
+	 * è®¾æ–½
 	 */
 	private String equipment;
 	/**
-	 * ±¸×¢
+	 * å¤‡æ³¨
 	 */
 	private String remark;
 	/**
-	 * ×´Ì¬
+	 * çŠ¶æ€ï¼ˆ0æ²¡äººæœ‰æ„ç§Ÿ1æœ‰äººæœ‰æ„ç§Ÿæœªç§Ÿ2å·²ç»å‡ºç§Ÿï¼‰
 	 */
 	private String state;
 	/**
-	 * Â¼ÈëÊ±¼ä
+	 * å½•å…¥æ—¶é—´
 	 */
 	private String date;
 
