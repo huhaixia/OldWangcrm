@@ -2,6 +2,7 @@ package com.oldwang.oldwangcrm.model;
 
 /**
  * 合同实体类
+ * 
  * @author Administrator
  * 
  */
@@ -23,7 +24,7 @@ public class Compact {
 	 */
 	private int houselnfoid;
 	/**
-	 *租期（以月为单位） 
+	 * 租期（以月为单位）
 	 */
 	private int hiretime;
 	/**
@@ -34,89 +35,110 @@ public class Compact {
 	 * 日期（签约时间）
 	 */
 	private String date;
+
 	/**
 	 * @return the id
 	 */
 	public int getId() {
 		return id;
 	}
+
 	/**
-	 * @param id the id to set
+	 * @param id
+	 *            the id to set
 	 */
 	public void setId(int id) {
 		this.id = id;
 	}
+
 	/**
 	 * @return the usersid
 	 */
 	public int getUsersid() {
 		return usersid;
 	}
+
 	/**
-	 * @param usersid the usersid to set
+	 * @param usersid
+	 *            the usersid to set
 	 */
 	public void setUsersid(int usersid) {
 		this.usersid = usersid;
 	}
+
 	/**
 	 * @return the customerid
 	 */
 	public int getCustomerid() {
 		return customerid;
 	}
+
 	/**
-	 * @param customerid the customerid to set
+	 * @param customerid
+	 *            the customerid to set
 	 */
 	public void setCustomerid(int customerid) {
 		this.customerid = customerid;
 	}
+
 	/**
 	 * @return the houselnfoid
 	 */
 	public int getHouselnfoid() {
 		return houselnfoid;
 	}
+
 	/**
-	 * @param houselnfoid the houselnfoid to set
+	 * @param houselnfoid
+	 *            the houselnfoid to set
 	 */
 	public void setHouselnfoid(int houselnfoid) {
 		this.houselnfoid = houselnfoid;
 	}
+
 	/**
 	 * @return the hiretime
 	 */
 	public int getHiretime() {
 		return hiretime;
 	}
+
 	/**
-	 * @param hiretime the hiretime to set
+	 * @param hiretime
+	 *            the hiretime to set
 	 */
 	public void setHiretime(int hiretime) {
 		this.hiretime = hiretime;
 	}
+
 	/**
 	 * @return the price
 	 */
 	public int getPrice() {
 		return price;
 	}
+
 	/**
-	 * @param price the price to set
+	 * @param price
+	 *            the price to set
 	 */
 	public void setPrice(int price) {
 		this.price = price;
 	}
+
 	/**
 	 * @return the date
 	 */
 	public String getDate() {
 		return date;
 	}
+
 	/**
-	 * @param date the date to set
+	 * @param date
+	 *            the date to set
 	 */
 	public void setDate(String date) {
 		this.date = date;
 	}
-	
+
 }

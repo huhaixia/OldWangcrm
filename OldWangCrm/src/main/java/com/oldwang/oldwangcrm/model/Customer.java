@@ -51,137 +51,170 @@ public class Customer {
 	 * 录入时间
 	 */
 	private String date;
+
 	/**
 	 * @return the id
 	 */
 	public int getId() {
 		return id;
 	}
+
 	/**
-	 * @param id the id to set
+	 * @param id
+	 *            the id to set
 	 */
 	public void setId(int id) {
 		this.id = id;
 	}
+
 	/**
 	 * @return the name
 	 */
 	public String getName() {
 		return name;
 	}
+
 	/**
-	 * @param name the name to set
+	 * @param name
+	 *            the name to set
 	 */
 	public void setName(String name) {
 		this.name = name;
 	}
+
 	/**
 	 * @return the phone
 	 */
 	public String getPhone() {
 		return phone;
 	}
+
 	/**
-	 * @param phone the phone to set
+	 * @param phone
+	 *            the phone to set
 	 */
 	public void setPhone(String phone) {
 		this.phone = phone;
 	}
+
 	/**
 	 * @return the area
 	 */
 	public String getArea() {
 		return area;
 	}
+
 	/**
-	 * @param area the area to set
+	 * @param area
+	 *            the area to set
 	 */
 	public void setArea(String area) {
 		this.area = area;
 	}
+
 	/**
 	 * @return the housetype
 	 */
 	public int getHousetype() {
 		return housetype;
 	}
+
 	/**
-	 * @param housetype the housetype to set
+	 * @param housetype
+	 *            the housetype to set
 	 */
 	public void setHousetype(int housetype) {
 		this.housetype = housetype;
 	}
+
 	/**
 	 * @return the floor
 	 */
 	public int getFloor() {
 		return floor;
 	}
+
 	/**
-	 * @param floor the floor to set
+	 * @param floor
+	 *            the floor to set
 	 */
 	public void setFloor(int floor) {
 		this.floor = floor;
 	}
+
 	/**
 	 * @return the price
 	 */
 	public int getPrice() {
 		return price;
 	}
+
 	/**
-	 * @param price the price to set
+	 * @param price
+	 *            the price to set
 	 */
 	public void setPrice(int price) {
 		this.price = price;
 	}
+
 	/**
 	 * @return the equipment
 	 */
 	public String getEquipment() {
 		return equipment;
 	}
+
 	/**
-	 * @param equipment the equipment to set
+	 * @param equipment
+	 *            the equipment to set
 	 */
 	public void setEquipment(String equipment) {
 		this.equipment = equipment;
 	}
+
 	/**
 	 * @return the state
 	 */
 	public String getState() {
 		return state;
 	}
+
 	/**
-	 * @param state the state to set
+	 * @param state
+	 *            the state to set
 	 */
 	public void setState(String state) {
 		this.state = state;
 	}
+
 	/**
 	 * @return the usersid
 	 */
 	public int getUsersid() {
 		return usersid;
 	}
+
 	/**
-	 * @param usersid the usersid to set
+	 * @param usersid
+	 *            the usersid to set
 	 */
 	public void setUsersid(int usersid) {
 		this.usersid = usersid;
 	}
+
 	/**
 	 * @return the date
 	 */
 	public String getDate() {
 		return date;
 	}
+
 	/**
-	 * @param date the date to set
+	 * @param date
+	 *            the date to set
 	 */
 	public void setDate(String date) {
 		this.date = date;
 	}
- 
+
 }

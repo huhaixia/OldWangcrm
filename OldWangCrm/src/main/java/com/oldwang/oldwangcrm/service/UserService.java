@@ -1,35 +1,64 @@
 package com.oldwang.oldwangcrm.service;
 
+import java.util.List;
+
 import com.oldwang.oldwangcrm.model.Users;
 
 /**
- * 账户模块接口
+ * 用户服务接口
+ * 
  * @author Administrator
- *
  */
 public interface UserService {
+
 	/**
 	 * 用户登录
-	 * @param name 用户名
-	 * @param pwd 用户密码
+	 * 
+	 * @param name
+	 *            用户名
+	 * @param pwd
+	 *            密码
 	 * @return 用户信息
 	 */
-	public Users loging( String name, String pwd);
+	public Users loging(String name, String pwd);
 
 	/**
+	 * 查询所有用户
+	 */
+	public List<Users> selectAllUsers();
+
+	/**
+	 * 添加用户
+	 * 
 	 * @param 要添加的用户
 	 */
-	public void addUser(Users user);
+	public int addUser(Users user);
 
 	/**
-	 * 修改用户
-	 * @param users要编辑的用户
+	 * 编辑用户
+	 * 
+	 * @param users
+	 *            要编辑的用户
 	 */
-	public void editUser(Users users);
+	public void editUser(Users user);
+
+	/**
+	 * 查询用户信息通过
+	 * 
+	 * @param id
+	 * @return
+	 */
+	public Users selectById(int id);
 
 	/**
 	 * 修改密码
-	 * @param users修改的用户
+	 * 
+	 * @param users
+	 *            修改的用户
+	 * @param pwd
+	 *            原密码
+	 * @param password
+	 *            新密码
 	 */
-	public void modifyPwd(Users user);
+	public int modifyPwd(String pwd, String name, String password);
 }

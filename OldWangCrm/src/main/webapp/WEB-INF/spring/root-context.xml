@@ -17,13 +17,20 @@
 
 
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
-		<property name="configLocation" value="config.xml" />
 		<property name="dataSource" ref="jdbcDataSource" />
 	</bean>	
 	<!-- DAO接口所在包名，Spring会自动查找其下的类 -->  
     <bean id="userMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
 		<property name="mapperInterface" value="com.oldwang.oldwangcrm.mapping.UserMapper" />
 		<property name="sqlSessionFactory" ref="sqlSessionFactory" />
+	</bean>
+	<!-- 业务逻辑 -->
+	<bean id="userService" class="com.oldwang.oldwangcrm.service.UserServiceImpl">
+		<property name="userMapper" ref="userMapper" />
+	</bean>
+	
+	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+		<property name="basePackage" value="com.oldwang.oldwangcrm" />
 	</bean>
 
 </beans>

@@ -1,7 +1,7 @@
 package com.oldwang.oldwangcrm.model;
 
 /**
- *图片实体类
+ * 图片实体类
  *
  * @author Administrator
  * 
