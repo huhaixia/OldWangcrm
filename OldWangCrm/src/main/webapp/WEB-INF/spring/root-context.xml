@@ -2,9 +2,9 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-	
+
 	<!-- Root Context: defines shared resources visible to all other web components -->
-	
+
 	<!-- 数据源 使用dbcp -->
 	<bean id="jdbcDataSource"
 		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
@@ -15,20 +15,19 @@
 		<property name="password" value="tiger" />
 	</bean>
 
-
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
 		<property name="dataSource" ref="jdbcDataSource" />
-	</bean>	
-	<!-- DAO接口所在包名，Spring会自动查找其下的类 -->  
-    <bean id="userMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
-		<property name="mapperInterface" value="com.oldwang.oldwangcrm.mapping.UserMapper" />
+	</bean>
+
+	<bean id="landlordMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+		<property name="mapperInterface" value="com.oldwang.oldwangcrm.mapping.LandlordMapper" />
 		<property name="sqlSessionFactory" ref="sqlSessionFactory" />
 	</bean>
-	<!-- 业务逻辑 -->
-	<bean id="userService" class="com.oldwang.oldwangcrm.service.UserServiceImpl">
-		<property name="userMapper" ref="userMapper" />
+
+	<bean id="landlordService" class="com.oldwang.oldwangcrm.service.LandlordServiceImpl">
+		<property name="landlordMapper" ref="landlordMapper"></property>
 	</bean>
-	
+
 	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
 		<property name="basePackage" value="com.oldwang.oldwangcrm" />
 	</bean>
