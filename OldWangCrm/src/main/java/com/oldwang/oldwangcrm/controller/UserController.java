@@ -65,18 +65,15 @@ public class UserController {
 		System.out.println(list.size());
 		return "allUsers";
 	}
-
 	/**
 	 * 添加用户跳转添加信息界面
 	 * 
-	 * @param moudel
+	 * @param model
 	 * @return
 	 */
 	@RequestMapping(value = "/addUser", method = RequestMethod.GET)
-	public String addUser(Model moudel) {
-
+	public String addUser(Model model) {
 		return "addUser";
-
 	}
 
 	/**
@@ -159,7 +156,7 @@ public class UserController {
 	 * @param user
 	 * @return
 	 */
-	@RequestMapping(value = "/editUser/editUs", method = RequestMethod.POST)
+	@RequestMapping(value = "/editUser/editUser", method = RequestMethod.POST)
 	public String editUs(HttpServletRequest request, Users user) {
 		System.out.println(">>>>>>>>>>>>>>>>");
 		user.setName(request.getParameter("name"));
@@ -187,7 +184,7 @@ public class UserController {
 		response.setHeader("Pragma", "No-cache");
 		response.setHeader("Cache-Control", "no-cache ");
 		response.setDateHeader("Expires", -10);
-		response.sendRedirect("/bluesky_crm2");
+		response.sendRedirect("/oldwang");
 	}
 
 }

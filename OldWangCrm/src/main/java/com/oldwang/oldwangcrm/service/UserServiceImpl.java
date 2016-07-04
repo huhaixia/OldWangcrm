@@ -31,9 +31,9 @@ public class UserServiceImpl implements UserService {
 	 * 登录方法实现
 	 */
 	@Override
-	public Users loging(String name, String pwd) {
+	public Users loging(String name, String password) {
 
-		return userMapper.loging(name, pwd);
+		return userMapper.loging(name, password);
 	}
 
 	/**
@@ -56,8 +56,8 @@ public class UserServiceImpl implements UserService {
 	 * 修改密码实现
 	 */
 	@Override
-	public int modifyPwd(String pwd, String name, String password) {
-		return userMapper.modifyPwd(pwd, name, password);
+	public int modifyPwd(String password, String name, String pwd) {
+		return userMapper.modifyPwd(password, name, pwd);
 	}
 
 	@Override

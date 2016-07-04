@@ -20,7 +20,7 @@ public interface UserService {
 	 *            密码
 	 * @return 用户信息
 	 */
-	public Users loging(String name, String pwd);
+	public Users loging(String name, String password);
 
 	/**
 	 * 查询所有用户
@@ -56,9 +56,9 @@ public interface UserService {
 	 * @param users
 	 *            修改的用户
 	 * @param pwd
-	 *            原密码
-	 * @param password
 	 *            新密码
+	 * @param password
+	 *            原密码
 	 */
-	public int modifyPwd(String pwd, String name, String password);
+	public int modifyPwd(String password, String name, String psd);
 }
