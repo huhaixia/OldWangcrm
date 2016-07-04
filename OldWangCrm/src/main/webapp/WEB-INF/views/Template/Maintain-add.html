@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta charset="utf-8" />
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../Styles/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../Styles/admin-all.css" />
+    <script type="text/javascript" src="../Scripts/jquery-1.7.2.js"></script>
+    <script type="text/javascript" src="../Scripts/jquery-ui-1.8.22.custom.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../Styles/ui-lightness/jquery-ui-1.8.22.custom.css" />
+    <script type="text/javascript" src="../Scripts/tip.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $(".datepicker").datepicker();
+
+            $('#list').hide();
+            $('#find').click(function () {
+                $('#list').show();
+            })
+            $('#bianhao').tooltip({ title: '编号' });
+            $('#xingming').tooltip({ title: '姓名' });
+            $('#lianxifangsi').tooltip({ title: '联系方式' });
+            $('#chengqu').tooltip({ title: '城区' });
+            $('#yixianghuxing').tooltip({title:'意向户型'})；
+            $('#yixiangloucheng').tooltip({title:'意向楼层'})；
+            $('#jiage').tooltip({title:'价格'})；
+            $('#sheshi').tooltip({title:'设施'})；
+            $('#zhuangtai').tooltip({title:'状态'})；
+            $('#yewuyuan').tooltip({title:'业务员'})
+    </script>
+</head>
+<body>
+    <div></div>
+    <div class="alert alert-info">当前位置<b class="tip"></b>客户管理<b class="tip"> 查询客户</b></div>
+    <table class="table table-striped table-bordered table-condensed">
+        <thead>
+            <tr>
+                <td colspan="6" class="auto-style2">&nbsp;请填写查询条件 </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td>姓名</td>
+                <td class="xingming">
+                  <input id ="xingming">
+                  </td>
+                <td>意向楼层</td>
+                <td class="yixiangloucheng">
+                <input id="yixiangloucheng">
+                </selected>
+                </td>
+                <td>城区</td>
+                <td>
+                    <select size="1" name="ENTPdept" id="chengqu">
+                        <option value="10401"></option>
+                        <option value="10388">天心区</option>
+                        <option
+                            value="10389">岳麓区</option>
+                        <option
+                            value="10390">开福区</option>
+                        <option
+                            value="10391">雨花区</option>
+                        <option
+                            value="10392">望城区</option>
+                        <option
+                            value="10393">芙蓉区</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>设施</td>
+                <td>
+                    <select size="1" name="select2" id="sheshi">
+                        <option value="10401"></option>
+                        <option value="10388">普通</option>
+                        <option
+                            value="10389">精装</option>
+                        <option
+                            value="10390">豪华</option>
+                    </select></td>
+                <td>户型</td>
+                <td>
+                    <select id="huixing" size="1" name="select3">
+                        <option value="10401"></option>
+                        <option value="10388">一室两厅</option>
+                        <option
+                            value="10389">两室一厅</option>
+                        <option
+                            value="10390">三室一厅</option>
+                        <option
+                            value="10391">四室一厅</option>
+                        <option
+                            value="10392">一室两厅</option>
+                        <option
+                            value="10393">两室两厅</option>
+                        <option
+                            value="10394">三室两厅</option>
+                        <option
+                            value="10395">四室两厅</option>
+                        <option
+                            value="10396">楼中楼</option>
+                        <option
+                            value="10399">单身公寓</option>
+                        <option
+                            value="10400">别墅</option>
+                    </select></td>
+            </tr>
+
+            <tr>
+                <td colspan="6" align="right">
+                    <input class="btn btn-inverse" id="find" type="button" value="查询" />
+                    <input class="btn btn-inverse" type="button" value="清空" /></td>
+            </tr>
+            </tbody>
+    </table>
+
+
+
+        </tbody>
+    </table>
+</body>
+</html>

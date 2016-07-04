@@ -33,7 +33,20 @@ public class HomeController {
 
 		model.addAttribute("serverTime", formattedDate);
 
-		return "home";
+		return "Index";
 	}
 
+	@RequestMapping(value = "/a", method = RequestMethod.GET)
+	public String home1(Locale locale, Model model) {
+		logger.info("Welcome oldwanghome!", locale);
+
+		Date date = new Date();
+		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
+
+		String formattedDate = dateFormat.format(date);
+
+		model.addAttribute("serverTime", formattedDate);
+
+		return "Template/find-2";
+	}
 }

@@ -49,7 +49,7 @@ public class UserController {
 		} else if (user.getUlevel() == 0) {
 			view = "salesman";// 业务员
 		}
-		return view;
+		return "Index";
 	}
 
 	/**
